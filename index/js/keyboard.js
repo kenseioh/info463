@@ -406,14 +406,16 @@ var special = {
  var $write = $('#write'),
         shift = false,
         capslock = false;
+       
 
 
-var myElement = document.getElementById('myElement');
+
+var myElement = document.getElementById('keyboarddd');
 var mc = new Hammer(myElement);
 mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
 
 // listen to events...
-mc.on("panup", function(ev) {                                       // panupn on space bar = add uppercase
+mc.on("panup", function(ev) {                                       // panupn on keyboard = add uppercase
   //  myElement.textContent = ev.type +" = uppercase";  
     $('.letter').addClass('uppercase');
    //         $('.symbol span').toggle();           
@@ -422,7 +424,7 @@ mc.on("panup", function(ev) {                                       // panupn on
             return false;
 });
 
-mc.on("pandown", function(ev) {                                     // pandown on space bar = removes uppercase
+mc.on("pandown", function(ev) {                                     // pandown on keyboard = removes uppercase
  //   myElement.textContent = ev.type +" = lowercase";
     $('.letter').removeClass('uppercase');
       //      $('.symbol span').toggle();          
@@ -431,7 +433,7 @@ mc.on("pandown", function(ev) {                                     // pandown o
             return false;
 });
 
-mc.on("panleft", function(ev) {                                     // pandown on space bar = removes uppercase
+mc.on("panleft", function(ev) {                                     // pandown on keyboard = removes uppercase
  //   myElement.textContent = ev.type +" = delete";
     var html = $write.html();
              
@@ -458,7 +460,7 @@ mc.on("panleft", function(ev) {                                     // pandown o
              
 
 $('.letter' || '.special').hover(function(event) {
-
+    
     $('.letter').hover(function(event){
      var onLetter = $( this ).text();   //changed
   //  console.log(onLetter);              //changed
@@ -514,6 +516,7 @@ function positionTooltip(event){
     var tPosX = event.pageX - 10;
     var tPosY = event.pageY - 100;
     $('table.tooltip').css({'position': 'absolute', 'top': tPosY, 'left': tPosX});
+
 };
 
 

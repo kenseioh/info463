@@ -108,7 +108,7 @@ height: 65px;
     border-style: solid;
     border-radius: 10px;
     height: 80px;
-    width: 60px;
+    width: 65px;
     z-index: 9999;
     background-color: white;
     display: inline-block;
@@ -117,6 +117,7 @@ height: 65px;
     height: 20px;
     width: 20px;
     text-align: center;
+    font-size: small;
 
 }
 .middle {
@@ -133,18 +134,19 @@ height: 65px;
     height: 20px;
     width: 20px;
     text-align: center;
+    font-size: small;
 
 }
 .right {
     height: 20px;
     width: 20px;
     text-align: center;
-
+    font-size: small;
 }
 .left {
     height: 20px;
     width: 20px;
     text-align: center;
-
+    font-size: small;
 }
 

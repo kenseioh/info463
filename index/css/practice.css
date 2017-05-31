@@ -19,17 +19,19 @@ position: relative;
 #keyboarddd {
     position: absolute;
     bottom: 63px;
+   
 }
 #write {
-margin: 0 0 3px;
+margin: 0 2px 2px 22px;
 padding: 5px;
-width: 167.75px;
+width: 127px;
 height: 10px;
 font: 1em/1.5 Verdana, Sans-Serif;
 background: #fff;
 border: 1px solid #DFDFE1;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
+
 }
 
 /*#Keyboard {
@@ -41,19 +43,19 @@ border: 1px solid #DFDFE1;
 }*/
 
 #keyboard {
-margin: 0;
+margin: 0 26px 0 22px;
 padding: 0;
 list-style: none;
 background-color: #DADFE3;
-height: 80px;
+height: 65px;
     margin-bottom: 0;
 }
     #keyboard li {
     float: left;
-    margin: 0 1px 1px 0;
-    width: 15px;
-    height: 15px;
-    line-height: 15px;
+    margin: 0 0 3px 0;
+    width: 11.55px;
+    height: 11.55px;
+    line-height: 11.55px;
     text-align: center;
     background: #fff;
     border: 1px solid #DFDFE1;
@@ -62,23 +64,23 @@ height: 80px;
 
     }
     #keyboard li.a {
-        margin: 0 3px 3px 0;
+        margin: 0 1px 3px 0;
     }
     #keyboard li.z {
-        margin: 0 0 3px 8px;
+        margin: 0 0 3px 5px;
     }
         .firstLetter {
         /*clear: left;*/
         margin-left: 3px;
         }
         #keyboard .left-shift {
-            width: 22px;
+            width: 16.94px;
             clear: left;
             margin-left: 3px;
             }
         #keyboard .return {
-            width: 32px;
-            margin-right: 3px;
+            width: 24.64px;
+            margin-right: 0;
             }
         .lastitem {
         margin-right: 0;
@@ -87,9 +89,9 @@ height: 80px;
         text-transform: uppercase;
         }
         #keyboard .space {
-        width: 100px;
-        margin-left: 8px;
-        margin-right: 8px;
+        width: 77px;
+        margin-left: 5px;
+        margin-right: 5px;
         }
         .on {
         display: none;
@@ -106,7 +108,7 @@ height: 80px;
     border-style: solid;
     border-radius: 10px;
     height: 80px;
-    width: 60px;
+    width: 65px;
     z-index: 9999;
     background-color: white;
     display: inline-block;
@@ -115,6 +117,7 @@ height: 80px;
     height: 20px;
     width: 20px;
     text-align: center;
+    font-size: small;
 
 }
 .middle {
@@ -131,18 +134,19 @@ height: 80px;
     height: 20px;
     width: 20px;
     text-align: center;
+    font-size: small;
 
 }
 .right {
     height: 20px;
     width: 20px;
     text-align: center;
-
+    font-size: small;
 }
 .left {
     height: 20px;
     width: 20px;
     text-align: center;
-
+    font-size: small;
 }
 
