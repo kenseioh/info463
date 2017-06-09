@@ -7,4 +7,4 @@ We developed this input technique for smartwatches, but we simulated that in web
  * What simulates the holding and swiping *
  
 ## Website link ##
-
+[link](https://yuliyakrav.github.io/keyboard/)
